@@ -1,0 +1,64 @@
+{
+  "Author": "乃αყα𝚉ι𝙳 乃⦿ន𝚃αᴍι",
+  "version": "3.0.0",
+  "language": "en",
+  "adminOnly": false,
+  "autoSent": true,
+  "allowInbox": true,
+  "DeveloperMode": false,
+  "autoCreateDB": true,
+  "autoClean": true,
+  "notiGroup": true,
+  "NOTIFICATION": true,
+  "EMAIL": "Facebook number/ID",
+  "PASSWORD": "Facebook password",
+  "OTPKEY": "Facebook 2FA Secret Key",
+  "BOTNAME": "@HostBDSupport",
+  "PREFIX": "/",
+  "usePrefix": true,
+  "reactUnsend": [
+    "😡",
+    "🤧",
+    "😤",
+    "😠"
+  ],
+  "ADMINBOT": [
+    "61595618673507",
+    "61596571983244",
+    "61591386879842"
+  ],
+  "DEVELOPER": [
+    "61591386879842"
+  ],
+  "APPSTATEPATH": "appstate.json",
+  "FCAOption": {
+    "selfListen": false,
+    "listenEvents": true,
+    "autoReconnect": false,
+    "online": true,
+    "autoMarkDelivery": false,
+    "autoMarkRead": false,
+    "enableTypingIndicator": true,
+    "typingDuration": 100
+  },
+  "Login": {
+    "autoRetryLogin": true,
+    "maxLoginRetries": 100,
+    "reconnectOnListenError": true,
+    "maxReconnectAttempts": 100,
+    "reconnectBaseDelay": 3000,
+    "reconnectMaxDelay": 30000,
+    "persistAppState": true,
+    "backupAppState": true,
+    "reloginMinIntervalMs": 900000,
+    "recoveryCooldownMs": 120000,
+    "deadConnectionGraceMs": 180000
+  },
+  "DATABASE": {
+    "sqlite": {
+      "storage": "data.sqlite"
+    }
+  },
+  "commandDisabled": [],
+  "eventDisabled": []
+}
